@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--header design-->
+    <header class="header">
+        <div class="row">
+            <div class="col-md-8 col-6">
+                <h3 class="logo align-middle">Portfolio.</h3>
+            </div>
+            <div class="col-md-4 col-6">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button id="menu-icon" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class='bx bx-menu'></i>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item ">
+                            <a class="active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" href="#contact">Contact</a>
+                        </li>
+                        
+                    </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+    <!--home design-->
+    <section class="home" id="home">
+        <div class="row">
+            <div class="col-12 col-md-6 home-text">
+                <h3>Hello,  I  am</h3>
+                <h2>Rizwan</h2>
+                <h3>And  I'm  a <br> <span id="animated-text">Frontend Developer</span></h3>
+                <a href="https://www.linkedin.com/in/rizwan-r-4a6354132" class="social-link"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/richurizwan0" class="social-link"><i class='bx bxl-github' ></i></a>
+                <a href="https://instagram.com/fro_ntendcode?igshid=YmMyMTA2M2Y=" class="social-link"><i class='bx bxl-instagram'></i></a>
+                <br>
+                <a href="Rizwan CV.pdf" class="cv-btn" download>Download CV </a>
+            </div>
+            <div class="col-12 col-md-5">
+                <img src="img/body-image.png" class="home-img" alt="" height="600rem">
+            </div>
+        </div>
+    </section>
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <img src="img/about-img.png" class="about-img" alt="" height="600rem">
+            </div>
+            <div class="col-12 col-md-6 about-content">
+                <h3>About <span>Me</span></h3>
+                <p>Skillful Frontend Developer trained in HTML5, CSS3, JavaScript, Bootstrap.
+                    Still learning and developing my skills. Ambitious and determined.</p>
+                    <div class="skills">
+                        <ul>
+                            <li><i class='bx bxl-javascript' ></i> JavaScript</li>
+                            <li><i class='bx bxl-bootstrap' ></i> Bootstrap</li>
+                            <li><i class='bx bxl-css3' ></i> CSS</li>
+                            <li><i class='bx bxl-html5' ></i></i> HTML</li>
+                            <li><i class='bx bxl-nodejs' ></i> Node.js</li>
+                            <li><i class='bx bxl-react' ></i> React</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <div class="row">
+            
+            <div class="col-12 col-md-6">
+                <h3>Get in <span>Touch</span></h3>
+                <div class="contact-details">
+                    <h4>Rizwan</h4>
+                    <h5><a href="tel:+48575565384">+48 575 565 384</a></h5>
+                    <h5><a href="mailto:richurizwan0@gmail.com">richurizwan0@gmail.com</a></h5>
+                    <h5>Łódź, Poland</h5>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39500.814212200035!2d19.445564173040466!3d51.773247110841574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2spl!4v1680263936113!5m2!1sen!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>Contact <span>Me</span></h3>
+                <div class="contact-form">
+                    <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbx17Z_VSlKlyFsXQWGuMmvBS8KyihXtJuQf1qQzvTok-AZyZuaDyTujb-qJlehINr2K/exec">
+                        <input class="contact-input" type="text" id="from_name" name="name" placeholder="Full Name">
+                        <input class="contact-input" type="email" id="email" name="email" placeholder="Email Address">
+                        <input class="contact-input" type="number" id="mobile_no" name="number" placeholder="Mobile No.">
+                        <textarea class="contact-input" name="message" id="message" cols="30" rows="10" placeholder="Type your message here.."></textarea>
+                        <input type="reset" onclick="sendMail()" class="send-btn contact-input" value="Send Message" >
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="data">
+            <p class="copyright">Designed by Rizwan</p>
+        </div>
+        <div class="go-back">
+            <a href="#home" class="go-back-btn"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("SR8BieLuzEml6jo3n");
+        })();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
