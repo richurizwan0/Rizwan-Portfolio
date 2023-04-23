@@ -306,4 +306,8 @@ input::-webkit-inner-spin-button {
     .home-text{
         margin-left: 0;
     }
+    header, section, footer{
+        width: 100svw;
+        
+    }
   }
