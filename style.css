@@ -165,7 +165,7 @@ span{
     margin-top: 4.5rem;
 }
 .skills ul{
-    display: flex;
+    display: grid;
     list-style: none;
     justify-content: space-around;
     
