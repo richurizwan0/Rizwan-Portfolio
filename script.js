@@ -42,6 +42,7 @@ function sendMail(){
     mobile_no : document.getElementById('mobile_no').value,
     message : document.getElementById('message').value
   };
+    if( (from_name!="")&& (email!="")&&(mobile_no!="")&&(message!=""))
   emailjs.send('service_r13s09l', 'template_7lhrpdp', params).then(function(res){
     alert("Sucess");
   })
